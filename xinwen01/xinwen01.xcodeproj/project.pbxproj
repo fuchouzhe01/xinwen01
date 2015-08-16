@@ -30,7 +30,7 @@
 		6FAF39821B801EAF001588B8 /* xinwen01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xinwen01.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FAF39861B801EAF001588B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6FAF39871B801EAF001588B8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6FAF39891B801EAF001588B8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6FAF39891B801EAF001588B8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
 		6FAF398A1B801EAF001588B8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		6FAF398C1B801EAF001588B8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		6FAF398D1B801EAF001588B8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
@@ -83,7 +83,6 @@
 			children = (
 				6FAF39AC1B8024D5001588B8 /* Controllers */,
 				6FAF39AB1B80244E001588B8 /* XWModel */,
-				6FAF39891B801EAF001588B8 /* AppDelegate.h */,
 				6FAF398A1B801EAF001588B8 /* AppDelegate.m */,
 				6FAF398C1B801EAF001588B8 /* ViewController.h */,
 				6FAF398D1B801EAF001588B8 /* ViewController.m */,
@@ -131,6 +130,7 @@
 		6FAF39AC1B8024D5001588B8 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				6FAF39891B801EAF001588B8 /* AppDelegate.h */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -428,6 +428,7 @@
 				6FAF39A71B801EAF001588B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6FAF39A81B801EAF001588B8 /* Build configuration list for PBXNativeTarget "xinwen01Tests" */ = {
 			isa = XCConfigurationList;
@@ -436,6 +437,7 @@
 				6FAF39AA1B801EAF001588B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
