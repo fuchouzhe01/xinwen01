@@ -81,6 +81,7 @@
 		6FAF39841B801EAF001588B8 /* xinwen01 */ = {
 			isa = PBXGroup;
 			children = (
+				6FAF39AC1B8024D5001588B8 /* Controllers */,
 				6FAF39AB1B80244E001588B8 /* XWModel */,
 				6FAF39891B801EAF001588B8 /* AppDelegate.h */,
 				6FAF398A1B801EAF001588B8 /* AppDelegate.m */,
@@ -125,6 +126,13 @@
 			children = (
 			);
 			name = XWModel;
+			sourceTree = "<group>";
+		};
+		6FAF39AC1B8024D5001588B8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
