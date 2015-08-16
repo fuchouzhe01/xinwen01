@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F6F3C3E1B80284400583AEC /* shit.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F3C3D1B80284400583AEC /* shit.m */; };
 		6FAF39881B801EAF001588B8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FAF39871B801EAF001588B8 /* main.m */; };
 		6FAF398B1B801EAF001588B8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FAF398A1B801EAF001588B8 /* AppDelegate.m */; };
 		6FAF398E1B801EAF001588B8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FAF398D1B801EAF001588B8 /* ViewController.m */; };
@@ -28,6 +29,8 @@
 
 /* Begin PBXFileReference section */
 		6F6F3C3A1B80271E00583AEC /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6F6F3C3C1B80284400583AEC /* shit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = shit.h; sourceTree = "<group>"; };
+		6F6F3C3D1B80284400583AEC /* shit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = shit.m; sourceTree = "<group>"; };
 		6FAF39821B801EAF001588B8 /* xinwen01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xinwen01.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FAF39861B801EAF001588B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6FAF39871B801EAF001588B8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -60,6 +63,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6F6F3C3B1B80281E00583AEC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6F6F3C3C1B80284400583AEC /* shit.h */,
+				6F6F3C3D1B80284400583AEC /* shit.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		6FAF39791B801EAF001588B8 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +93,7 @@
 		6FAF39841B801EAF001588B8 /* xinwen01 */ = {
 			isa = PBXGroup;
 			children = (
+				6F6F3C3B1B80281E00583AEC /* Models */,
 				6FAF39AC1B8024D5001588B8 /* Controllers */,
 				6FAF39AB1B80244E001588B8 /* XWModel */,
 				6FAF398A1B801EAF001588B8 /* AppDelegate.m */,
@@ -236,6 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6FAF398E1B801EAF001588B8 /* ViewController.m in Sources */,
+				6F6F3C3E1B80284400583AEC /* shit.m in Sources */,
 				6FAF398B1B801EAF001588B8 /* AppDelegate.m in Sources */,
 				6FAF39881B801EAF001588B8 /* main.m in Sources */,
 			);
