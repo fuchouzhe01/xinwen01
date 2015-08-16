@@ -27,10 +27,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6F6F3C3A1B80271E00583AEC /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6FAF39821B801EAF001588B8 /* xinwen01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xinwen01.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FAF39861B801EAF001588B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6FAF39871B801EAF001588B8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6FAF39891B801EAF001588B8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
 		6FAF398A1B801EAF001588B8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		6FAF398C1B801EAF001588B8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		6FAF398D1B801EAF001588B8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
@@ -130,7 +130,7 @@
 		6FAF39AC1B8024D5001588B8 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				6FAF39891B801EAF001588B8 /* AppDelegate.h */,
+				6F6F3C3A1B80271E00583AEC /* AppDelegate.h */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
